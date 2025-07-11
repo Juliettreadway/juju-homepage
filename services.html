@@ -46,24 +46,42 @@
       font-weight: bold;
       text-decoration: none;
     }
-    .cta {
-      background-color: #b488a7;
+
+    /* Nav Bar Styles */
+    nav {
+      background: #b488a7;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-family: 'Helvetica Neue', sans-serif;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
       color: white;
-      padding: 18px 40px;
-      border-radius: 12px;
-      font-size: 1.2em;
-      font-weight: bold;
       text-decoration: none;
-      margin-top: 40px;
-      display: inline-block;
+      font-weight: 600;
+      font-size: 1.1em;
+      padding: 6px 12px;
+      border-radius: 8px;
       transition: background-color 0.3s ease;
     }
-    .cta:hover {
+    nav a:hover {
       background-color: #9e6a82;
     }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="ai-chatbot.html">AI Chatbot</a>
+    <a href="booked-out-funnel.html">Booked-Out Funnel</a>
+    <a href="custom-system-setup.html">Custom Setup</a>
+    <a href="https://api.leadconnectorhq.com/widget/booking/uDtsDRIfLcVKYQsXjhFX" target="_blank" rel="noopener noreferrer">Book Now</a>
+  </nav>
   <h1>Work With Elevé Systems</h1>
   <h2>Explore our signature services to automate your brand and elevate your systems</h2>
 
